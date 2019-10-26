@@ -6,7 +6,7 @@ namespace open_lab_03._7
     {
         public static bool EqualSlices(int total, int people, int each)
         {
-            return (people * each == total);
+            return (people * each =< total);
         }
         static void Main(string[] args)
         {
